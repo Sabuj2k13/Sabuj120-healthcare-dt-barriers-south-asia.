@@ -1,0 +1,15 @@
+construct,barriers,indicator_code,indicator_name,source,orientation_sign,transform,non_missing_values,source_last_updated,source_file
+B1,B1,SH.XPD.OOPC.CH.ZS,Out-of-pocket expenditure (% of current health expenditure),WDI (World Bank),1,diff,190,2026-11-11,API_SH.XPD.OOPC.CH.ZS_DS2_en_csv_v2_62345.csv
+B3,B3+B8,GOV_WGI_RQ.EST,Regulatory Quality: Estimate,"WGI (World Bank, via Data360 API)",-1,diff,192,,
+B4,B4+B14,IT.NET.USER.ZS,Individuals using the Internet (% of population),WDI (World Bank),-1,logdiff,195,2026-11-11,API_IT.NET.USER.ZS_DS2_en_csv_v2_62387.csv
+B6,B6,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people),"WDI (World Bank, via Data360 API)",-1,logdiff,164,,
+B7,B7,SH.XPD.GHED.GD.ZS,Domestic general government health expenditure (% of GDP),WDI (World Bank),-1,diff,190,2026-11-11,API_SH.XPD.GHED.GD.ZS_DS2_en_csv_v2_72990.csv
+B9,B9,SH.MED.PHYS.ZS,"Physicians (per 1,000 people)",WDI (World Bank),-1,diff,118,2026-11-11,API_SH.MED.PHYS.ZS_DS2_en_csv_v2_68820.csv
+B10,B10,IT.NET.SECR.P6,Secure Internet servers (per 1 million people),"WDI (World Bank, via Data360 API)",-1,logdiff,120,,
+B11,B11,IT.CEL.SETS.P2,Mobile cellular subscriptions (per 100 people),"WDI (World Bank, via Data360 API)",-1,logdiff,200,,
+B13,B13+B17,GOV_WGI_GE.EST,Government Effectiveness: Estimate,"WGI (World Bank, via Data360 API)",-1,diff,192,,
+B15,B15,GOV_WGI_PV.EST,Political Stability and Absence of Violence/Terrorism: Estimate,"WGI (World Bank, via Data360 API)",-1,diff,192,,
+B19,B19,GOV_WGI_CC.EST,Control of Corruption: Estimate,"WGI (World Bank, via Data360 API)",-1,diff,192,,
+GDPG,control,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),WDI (World Bank),0,level (control),199,2026-11-11,API_NY.GDP.MKTP.KD.ZG_DS2_en_csv_v2_60678.csv
+
+"Retrieved 2026-11-18 from the World Bank (WDI bulk CSV via api.worldbank.org; WGI and three WDI ICT series via data360api.worldbank.org). Countries: AFG, BGD, BTN, IND, MDV, NPL, PAK, LKA; years 2000-2024. Orientation: +1 higher value = more severe barrier; -1 higher value = less severe (multiplied by -1 in the analysis). Values are raw, in original units."
